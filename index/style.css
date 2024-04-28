@@ -1,0 +1,57 @@
+*{  padding: 0;
+    margin: 0 ;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+.btys{                 /* 底部“温馨提示” 标题样式 */
+    width: 100vw;      /* vw,vh是可视宽高百分比，最大值100 */
+    height: 3vh;
+    font-size: 10px;
+    background: #e0e0e0;
+    /* 水平垂直居中 */
+    text-align: center;
+    line-height: 3vh;
+    position: fixed;    /* 固定标题盒子样式保持不动 */
+    left: 0px;          /* 固定标题在左下角 */
+    bottom: 0px;
+}
+.main p{
+    font-size: 14px;
+    color: #ff0101;
+    line-height: 100px;
+    padding-top: 260px; 
+}
+.main span{
+    font-size: 14px;
+    color: rgb(8, 0, 255);
+}
+
+#warn{
+    color: yellow;
+    font-size: 15px;
+}
+a{
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: 130;
+    margin: 10px auto;
+}
+button{
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    margin: 60px auto;
+}
+.footer p{
+    font-size: 10px;
+    color: #c0c0c0;
+    text-align: center;
+}

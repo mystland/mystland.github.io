@@ -1,0 +1,33 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000000;
+    }
+
+    h3{
+        color: transparent;
+        font-size: 1em;
+        background: linear-gradient(to right, #000,#fff,#000);
+        -webkit-background-clip: text;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        animation: move 3s linear infinite;
+    }
+    @keyframes move{
+        0%{
+            background-position: -500%;
+        }
+        
+        100%{
+            background-position: 500%;
+        }
+    }
+    div{
+
+    }

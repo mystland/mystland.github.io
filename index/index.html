@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到秘密花园</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .main{      /* logo 样式 */
+            width: auto;
+            height: auto; 
+            background: url(/images/logo2.png) no-repeat center 100px;
+            border: 1px solid #5f5f5f; 
+            margin: 50 auto;
+            text-align: center;
+        }
+        h3{
+            color: transparent;
+            text-align: center;
+            font-size: 1em;
+            background: linear-gradient(to right,#000000,#fff,#000000);
+            -webkit-background-clip: text;
+            background-size: 80%;
+            background-repeat:no-repeat;
+            animation: move 3s linear infinite;
+        }
+        @keyframes move{
+            0%{
+                background-position: -500%;
+            }
+            100%{
+                background-position: 500%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="btys">温馨提示 : 请按顶部指引跳转外部浏览全内容</div>
+    <div class="content">
+       
+        <div>
+
+        </div>
+        <div class="main">
+            <p>警告！！！你即将打开的潘多拉魔盒</p>
+            <h3>大人玩的游戏,小朋友自行离开</h3>
+            <input type="checkbox" checked> <span id="warn">本平台禁止未成年入浏览,请确保年满十八周岁</span>
+            <br>
+            <a href="https://dance18.github.io/02"><button>确认，进入秘密花园</button></a> 
+        </div>
+        <div class="footer">
+            <p>Secret Garden&copy;2024 &nbsp;<span style="color: rgb(114, 170, 255);">诚意出品</span> </p>
+            <p style="margin: 5px auto;">关于我们 | 隐私政策 | 服务条款</p>
+        </div>
+    </div>
+</body>
+</html>
